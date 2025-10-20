@@ -1,5 +1,5 @@
 # AWS_Web_Application
-💻 AWS Scalable Web App Architecture
+# 💻 AWS Scalable Web App Architecture
 🌍 Overview
 
 This project demonstrates the design and deployment of a highly available, fault-tolerant, and scalable web application architecture on AWS.
@@ -7,7 +7,7 @@ It leverages load balancing, auto scaling, and DNS routing to ensure optimal per
 
 📘 View Architecture Diagram + Full Case Study →
 
-🧩 Problem Statement
+## 🧩 Problem Statement
 
 Many web applications face downtime and performance issues during sudden user traffic surges.
 To address this, the project aimed to design an AWS-native architecture that could:
@@ -18,9 +18,9 @@ To address this, the project aimed to design an AWS-native architecture that cou
 
 ✅ Optimize compute costs through dynamic resource management
 
-🔍 Approach
+## 🔍 Approach
 
-1️⃣ Define System Requirements
+### 1️⃣ Define System Requirements
 
 Outlined application and infrastructure needs, including:
 
@@ -29,32 +29,32 @@ Dynamic scalability
 Security and access control policies
 Continuous monitoring and cost visibility
 
-2️⃣ Set Up EC2 and Networking
+### 2️⃣ Set Up EC2 and Networking
 
 Provisioned Amazon EC2 instances across multiple Availability Zones.
 Configured VPC, subnets, and security groups to ensure isolation and secure access.
 Applied IAM roles for controlled permissions and automation scripts.
 
-3️⃣ Implement Load Balancer
+### 3️⃣ Implement Load Balancer
 
 Configured an Elastic Load Balancer (ELB) to distribute traffic evenly across instances.
 Enabled health checks for failover recovery.
 Integrated HTTPS termination to enhance end-user security.
 
-4️⃣ Enable Auto Scaling
+### 4️⃣ Enable Auto Scaling
 
 Created Auto Scaling Groups to dynamically adjust EC2 capacity based on CPU and memory utilization.
 Defined scaling policies for predictable, automated elasticity.
 Used CloudWatch alarms for proactive scaling triggers.
 
-5️⃣ Integrate Monitoring and DNS
+### 5️⃣ Integrate Monitoring and DNS
 
 Set up Amazon CloudWatch dashboards for real-time performance tracking.
 Configured Amazon Route 53 for domain management and failover routing.
 Deployed logs and metrics visualization to identify usage and bottlenecks.
 
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 AWS Services:
 
@@ -70,7 +70,7 @@ Amazon CloudWatch
 
 AWS Identity and Access Management (IAM)
 
-Technical Tools:
+## ⚙️Technical Tools:
 
 Terraform
 
@@ -80,7 +80,7 @@ GitHub
 
 Visual Studio Code
 
-Skills Applied:
+## ⚙️Skills Applied:
 
 Cloud Architecture Design
 
@@ -91,7 +91,7 @@ Performance Monitoring
 Scalability Optimization
 
 
-📈 Results
+## 📈 Results
 
 Key Improvements Achieved:
 
@@ -105,7 +105,7 @@ Key Improvements Achieved:
 
 
 
-🧠 Business Impact
+## 🧠 Business Impact
 
 This AWS architecture provides a reliable and cost-effective foundation for modern web applications.
 It enables businesses to:
